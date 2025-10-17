@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Project One",
+    "description": "This is the first project",
+    "image": "images/projects/project-image.webp",
+    "url": "https://example.com",
+    "source": "https://github.com/username/project1"
+  } 
+]

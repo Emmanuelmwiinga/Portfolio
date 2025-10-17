@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emmanuel.dev</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/dancer.webp" title="Favicon"/>
+
+  <!-- Main CSS Files -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Emmanuel Color CSS -->
+  <link rel="stylesheet" href="css/namari-color.css">
+
+  <!-- Icon Fonts -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/6b8aca2410.js"></script>
+
+  <!-- Animate CSS -->
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<style>
+    /* Project grid styling */
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    /* Make sure main content is not hidden behind the header */
+main {
+  padding-top: 100px; /* Adjust this based on your header height */
+}
+body{
+  background: url("images/banner-images/banner-image-1.webp");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    .project-card {
+      border: 1px solid #000;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s;
+      background: #02182B;
+    }
+
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+
+    .project-card img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .project-card h3 {
+      margin: 10px 0 5px;
+      color: #f7f7f7;
+    }
+
+    .project-card p {
+      font-size: 0.9rem;
+      color: #f7f7f7;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 15px;
+      background-color: #F1700D;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+
+    .project-card a:hover {
+      background-color: #F1700D;
+    }
+</style>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status" class="la-bo-triangle-path">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+  <div class="top-border wow fadeInDown animated"></div>
+  <div class="right-border wow fadeInRight animated"></div>
+  <div class="bottom-border wow fadeInUp animated"></div>
+  <div class="left-border wow fadeInLeft animated"></div>
+</div>
+
+<div id="wrapper">
+
+  <!-- Header -->
+  <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+    <div id="header" class="nav-collapse">
+      <div class="row clearfix">
+        <div class="col-1">
+
+          <!-- Logo -->
+          <div id="logo">
+            <img src="images/logo.png" id="banner-logo" alt="Landing Page"/>
+            <img src="images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+          </div>
+
+          <!-- Social Icons -->
+          <aside>
+            <ul class="social-icons">
+              <li><a href="https://wa.me/260768369566" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            </a></li>
+              <li><a target="_blank" title="Facebook" href="https://www.facebook.com/profile.php?id=61573706969994"><i class="fa fa-facebook fa-1x"></i></a></li>
+              <li><a target="_blank" title="Email" href="mailto:Emmanuelmwiingaixii@gmail.com"><i class="fa fa-envelope fa-1x"></i></a></li>
+            </ul>
+          </aside>
+
+          <!-- Navigation -->
+          <nav id="nav-main" class="Navigation">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#projects-grid">My Projects</a></li>
+            </ul>
+          </nav>
+
+          <div id="nav-trigger"><span></span></div>
+          <nav id="nav-mobile"></nav>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="PROJECTS">
+    <section id="projects-grid" class="projects-container">
+      <!-- Projects will be loaded here dynamically -->
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="col">
+        <img src="images/logo-2.png" alt="logo" width="95px"/>
+        <p class="footer-p">
+          Are you interested in receiving updates on new designs? Follow my
+          Facebook and Instagram pages.
+        </p>
+      </div>
+      <div class="col">
+        <h3>Contact<div class="underline-footer"><span class="anime"></span></div></h3>
+        <ul>
+          <li><a href="tel:260779849344"><i class="fa fa-phone fa-1x"></i>&nbsp;<span>Phone</span></a></li>
+          <li><a href="mailto:Emmanuelmwiingaixii@gmail.com"><i class="fa fa-google-plus fa-1x"></i>&nbsp;<span>Email</span></a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Links<div class="underline-footer"><span class="anime"></span></div></h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <div class="col">
+            <div class="social-media-icons">
+              <h3>Follow<div class="underline-footer"><span class="anime"></span></div></h3>
+              <a href="https://www.facebook.com/profile.php?id=61573706969994" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/emmanuel.dev_11?igsh=YzljYTk1ODg3Zg==" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/Emmanuelmwiinga" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://wa.me/260768369566" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Emmanuel.dev © <span id="year"></span> - All rights reserved</p>
+  </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/site.js"></script>
+
+<!-- JSON Projects Loader -->
+<script>
+async function loadProjects() {
+  const projectsGrid = document.getElementById("projects-grid");
+
+  try {
+    const response = await fetch("projects.json");
+    const projects = await response.json();
+
+    projects.forEach(project => {
+      const projectHTML = `
+        <div class="project-card">
+          <img src="${project.image}" alt="${project.title}" />
+          <h3>${project.title}</h3>
+          <p>${project.description}</p>
+          <a href="${project.url}" target="_blank">View Project</a>
+          <a href="${project.source}" target="_blank">Source code<i class="fa-brands fa-github"></i></a>
+        </div>
+      `;
+      projectsGrid.innerHTML += projectHTML;
+    });
+  } catch (error) {
+    console.error("Error loading projects:", error);
+    projectsGrid.innerHTML = "<p>Failed to load projects. Please try again later.</p>";
+  }
+}
+
+document.addEventListener("DOMContentLoaded", loadProjects);
+</script>
+
+</body>
+</html>
