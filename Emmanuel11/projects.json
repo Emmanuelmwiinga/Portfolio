@@ -1,14 +1,14 @@
 [
   {
-    "title": "Project One",
-    "description": "This is the first project",
-    "image": "images/projects/project-image.webp",
-    "url": "https://example.com",
-    "source": "https://github.com/username/project1"
+    "title": "Gym website landing page",
+    "description": "Best gym is a landing page built with html,css,js and gsap for cool animations with locomotive scroll for smooth scrolling ",
+    "image": "images/projects/e45d0f5b-2c8a-4cc8-9fb6-a82845562f7e.png",
+    "url": "https://best-gym-website-template.netlify.app",
+    "source": "https://github.com/Emmanuelmwiinga/Best-gym-website-template"
   },
   {
     "title": "Project Two",
-    "description": "This is the first project",
+    "description": "second project coming soon",
     "image": "images/projects/project-image.webp",
     "url": "https://example.com",
     "source": "https://github.com/username/project1"
