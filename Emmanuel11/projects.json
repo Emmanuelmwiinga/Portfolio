@@ -9,12 +9,12 @@
   {
     "title": "Bakery hero page",
     "description": "This is a hero page with a sliding effect that shows two different layouts, created with HTML,CSS,JS AND GSAP",
-    "image": "images/projects/project-image.webp",
+    "image": "images/projects/Bakery hero.png",
     "url": "https://Bakery-hero-section.netlify.app",
-    "source": "https://github.com/username/project1"
+    "source": "https://github.com/Emmanuelmwiinga/Bakery-hero-section-website-template.git"
   },
   {
-    "title": "Project Two",
+    "title": "Project 3",
     "description": "second project coming soon",
     "image": "images/projects/project-image.webp",
     "url": "https://example.com",
