@@ -7,10 +7,17 @@
     "source": "https://github.com/Emmanuelmwiinga/Best-gym-website-template"
   },
   {
+    "title": "Bakery hero page",
+    "description": "This is a hero page with a sliding effect that shows two different layouts, created with HTML,CSS,JS AND GSAP",
+    "image": "images/projects/project-image.webp",
+    "url": "https://Bakery-hero-section.netlify.app",
+    "source": "https://github.com/username/project1"
+  },
+  {
     "title": "Project Two",
     "description": "second project coming soon",
     "image": "images/projects/project-image.webp",
     "url": "https://example.com",
     "source": "https://github.com/username/project1"
-  } 
+  }  
 ]
