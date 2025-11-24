@@ -14,6 +14,13 @@
     "source": "https://github.com/Emmanuelmwiinga/Bakery-hero-section-website-template"
   },
   {
+    "title": "Animated Team cards",
+    "description": "Animated Team cards that have a staggered effect that reveals images when you hover over them",
+    "image": "images/projects/Team cards.png",
+    "url": "https://animated-team-cards.netlify.app",
+    "source": "https://github.com/Emmanuelmwiinga/Animated-Team-Cards"
+  },
+  {
     "title": "coming soon",
     "description": "Next project coming soon",
     "image": "images/projects/project-image.webp",
